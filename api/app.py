@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from .gemini_service import generate_chat_response
+from app.gemini_service import generate_chat_response
 
 app = FastAPI(
     title="GenAI Chatbot SaaS API created by JAY",
