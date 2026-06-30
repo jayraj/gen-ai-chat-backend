@@ -1,5 +1,5 @@
 from google import genai
-from app.config import Config
+from .config import Config
 
 # Validate settings before triggering endpoints
 Config.validate()
